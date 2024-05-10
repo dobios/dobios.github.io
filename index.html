@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
 
-<title>Kevin Laeufer</title>
+<title>Amelia Dobis</title>
 <meta charset="utf-8">
-<meta name="author" content="Kevin Laeufer">
+<meta name="author" content="Amelia Dobis">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="minimal.css" rel="stylesheet">
 
@@ -12,12 +12,12 @@
 
 <div class="container">
 <header>
-<a class="logo" href="index.html">Kevin Laeufer</a>
+<a class="logo" href="index.html">Amelia Dobis</a>
 <nav class="float-right"><ul><li>
-  <a href="mailto:laeufer@berkeley.edu">email</a> /
-  <a href="https://github.com/ekiwi">github</a> /
-  <a href="https://scholar.google.com/citations?user=NpYbiwcAAAAJ">google scholar</a> /
-  <a rel="me" href="https://discuss.systems/@ekiwi">mastodon</a>
+  <a href="mailto:ad4048@princeton.edu">email</a> /
+  <a href="https://github.com/dobios">github</a> /
+  <a href="https://scholar.google.com/citations?hl=en&user=ZHkWhBIAAAAJ">google scholar</a> /
+  <a rel="me" href="https://tooting.ch/@ameliad">mastodon</a>
 </li></ul></nav>
 </header>
 
@@ -25,145 +25,76 @@
 
 
 <div class="row">
-<img class="float-left" src="kevin.jpg" alt="Kevin Laeufer headshot" id="headshot">
+<img class="float-left" src="profilepic.jpg" alt="Profile picture" id="headshot">
 <div class="intro">
-I am a PhD candidate in the <a href="https://adept.eecs.berkeley.edu">ADEPT Lab</a> at UC Berkeley.
 
-I am a major contributor to <a href="https://www.chisel-lang.org/">Chisel</a>,
-an open-source hardware construction language, in particular to the
-<a href="https://github.com/chipsalliance/firrtl">firrtl hardware compile</a>
-and the <a href="https://github.com/ucb-bar/chisel-testers2">chiseltest</a> verification library.
-
-I am advised by <a href="https://people.eecs.berkeley.edu/~ksen">Koushik Sen</a>.
 </div>
 </div>
 
 <div class="row">
-<h2>News</h2><ul class="news">
-<li><div class="date">Mar'24</div><div>Papers on <a href="pdfs/rtl_repair_kevin_laeufer_asplos2024.pdf">RTL-Repair</a> and <a href="pdfs/zoomie_asplos2024.pdf">Zoomie, a tool for better debugging on FPGAs</a> accepted to ASPLOS 2024</div></li>
-<li><div class="date">Feb'24</div><div>
-The <a href="http://surfer-project.org/">Surfer Waveform Viewer</a> is now using my <a href="https://github.com/ekiwi/wellen">wellen</a>
-library to quickly load VCD and FST files. My library allows Surfer to parse VCDs using multiple-threads and to
-load much larger VCDs thanks to a compressed in-memory representation. Checkout the <a href="https://blog.surfer-project.org/v0-1-0">Surfer 0.1.0 release announcement</a>
-and try out Surfer <a href="https://app.surfer-project.org/">in your browser</a>.
-</div></li>
-<li><div class="date">Mar'23</div><div>I am giving a talk on our Simulator Independent Coverage work at the
-  <a href="https://docs.google.com/document/d/1fOSRdyZR2w75D87yU2Ma9h2-_lEPL4NxvhJGJd-s5pk">CIRCT Weekly Developer Meeting</a> on March 15th.</div></li>
-<li><div class="date">Feb'23</div><div>I am giving a guest lecture on formal verification in
-<a href="https://classes.soe.ucsc.edu/cse228a/Winter23/calendar/">CSE 228A - Agile Hardware Design</a> at UC Santa Cruz on February 27th.</div></li>
-<li><div class="date">Jan'23</div><div>Paper on <a href="pdfs/simulator_independent_coverage_kevin_laeufer_asplos2023.pdf">Simulator Independent Coverage</a> accepted to ASPLOS 2023</div></li>
+<h2>Current Projects</h2>
 
-</ul></div>
+</div>
 
 
 <div class="row">
 <h2>Publications</h2><ul class="pubs-list">
 
-<!-- RTL-Repair -->
+<!-- Thesis -->
 <li>
-  <div class="badges">
-    <a title="Artifacts Available V1.1" href="https://www.acm.org/publications/policies/artifact-review-badging">
-    <img class="badge" src="images/artifacts_available_v1_1.png" alt="Artifacts Available V1.1"></a>
-    <a title="Artifacts Evaluated: Functional V1.1" href="https://www.acm.org/publications/policies/artifact-review-badging">
-    <img class="badge" src="images/artifacts_evaluated_functional_v1_1.png" alt="Artifacts Evaluated: Functional V1.1"></a>
-    <a title="Results Reproduced V1.1" href="https://www.acm.org/publications/policies/artifact-review-badging">
-    <img class="badge" src="images/results_reproduced_v1_1.png" alt="Results Reproduced V1.1"></a>
-  </div>
   
-  <span class="paper">RTL-Repair: Fast Symbolic Repair of Hardware Design Code</span>
+  <span class="paper">Formal Verification of Hardware using MLIR</span> <div class="date">Apr'24</div>
   <br />
-  <span class="me">Kevin Laeufer</span>, Brandon Fajardo, Abhik Ahuja, Vighnesh Iyer, Borivoje Nikolic and Koushik Sen
+  <span class="me">Amelia Dobis</span>
   <br />
-  <abbr class="conf" title="29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems">ASPLOS 2024</abbr> 
-  (<a href = "pdfs/rtl_repair_kevin_laeufer_asplos2024.pdf">Paper PDF</a> /
-  <a href = "https://github.com/ekiwi/rtl-repair">GitHub</a> /
-  <a href = "videos/rtl_repair_kevin_laeufer_asplos2024_lightning.mp4">Lightning Talk</a> /
-  <a href = "pdfs/rtl_repair_kevin_laeufer_asplos2024_lightning.pdf">Lightning Slides</a> /
-  <a href = " https://doi.org/10.1145/3620666.3651346">DOI Link</a>)
+  <abbr class="conf" title="ETH Zurich">Master Thesis</abbr> 
+  (<a href = "pdfs/formal-verification-of-hardware-using-mlir.pdf">Paper PDF</a> /
+  <a href = "https://github.com/llvm/circt">GitHub</a> /
+  <a href = "https://doi.org/10.3929/ethz-b-000668906">DOI Link</a>)
 </li>
-
-<!-- Zoomie -->
-<li>
-  <span class="paper">Zoomie: A Software-like Debugging Tool for FPGAs</span>
-  <br />
-  Tianrui Wei, <span class="me">Kevin Laeufer</span>, Katie Lim, Jerry Zhao, Koushik Sen, Jonathan Balkind and Krste Asanovic
-  <br />
-  <abbr class="conf" title="29th ACM International Conference on Architectural Support for Programming Languages and Operating Systems">ASPLOS 2024</abbr> 
-  (<a href = "pdfs/zoomie_asplos2024.pdf">Paper PDF</a> /
-  <a href = "https://github.com/zoomie-project">GitHub</a> /
-  <a href = " https://doi.org/10.1145/3620666.3651356">DOI Link</a>)
-</li>
-
-<!-- Simulator Independent Coverage -->
-<li>
-<div class="badges">
- <a title="Artifacts Available V1.1" href="https://www.acm.org/publications/policies/artifact-review-badging">
- <img class="badge" src="images/artifacts_available_v1_1.png" alt="Artifacts Available V1.1"></a>
- <a title="Artifacts Evaluated: Functional V1.1" href="https://www.acm.org/publications/policies/artifact-review-badging">
- <img class="badge" src="images/artifacts_evaluated_functional_v1_1.png" alt="Artifacts Evaluated: Functional V1.1"></a>
- <a title="Results Reproduced V1.1" href="https://www.acm.org/publications/policies/artifact-review-badging">
- <img class="badge" src="images/results_reproduced_v1_1.png" alt="Results Reproduced V1.1"></a>
-</div>
-
-<span class="paper"><a href="papers/simulator_independent_coverage_asplos2023.html">Simulator Independent Coverage for RTL Hardware Languages</a></span>
-<br>
-<span class="me">Kevin Laeufer</span>, Vighnesh Iyer, David Biancolin, Jonathan Bachrach, Borivoje Nikolic and Koushik Sen
-<br>
-<abbr class="conf" title="28th ACM International Conference on Architectural Support for Programming Languages and Operating Systems">ASPLOS 2023</abbr> 
-(<a href = "pdfs/simulator_independent_coverage_kevin_laeufer_asplos2023.pdf">Paper PDF</a> /
-<a href = "https://github.com/ekiwi/simulator-independent-coverage">GitHub</a> /
-<a href = "videos/simulator_independent_coverage_kevin_laeufer_asplos2023_lightning.mp4">Lightning Talk</a> /
-<a href = "pdfs/simulator_independent_coverage_kevin_laeufer_asplos2023_lightning.pdf">Lightning Slides</a> /
-<a href = "papers/simulator_independent_coverage_asplos2023/poster.html">Poster</a> (<a href="papers/simulator_independent_coverage_asplos2023/poster.pdf">PDF</a>) /
-<a href = "https://doi.org/10.1145/3582016.3582019">DOI Link</a>)
-</li>
-
 
 <!-- Chisel Verify -->
 <li>
-<span class="paper">Verification of Chisel Hardware Designs with ChiselVerify</span>
+<span class="paper">Verification of Chisel Hardware Designs with ChiselVerify</span> <div class="date">Feb'23</div>
 <br>
-Amelia Dobis, <span class="me">Kevin Laeufer</span>, Hans Jakob Damsgaard, Tjark Petersen, Kasper Hesse, Enrico Tolotto, Simon Thye Andersen, Richard Lin and Martin Schoeberl
+<span class="me">Amelia Dobis</span>, Kevin Laeufer, Hans Jakob Damsgaard, Tjark Petersen, Kasper Hesse, Enrico Tolotto, Simon Thye Andersen, Richard Lin, and Martin Schoeberl
 <br>
 <abbr class="conf" title="Microprocessors and Microsystems">Microprocessors and Microsystems</abbr> 
-(<a href = "pdfs/chiselverify_and_chiseltest_formal_micpro.pdf">Paper PDF</a> /
+(<a href = "pdfs/verification-of-chisel-hardware-designs-with-chiselverify.pdf">Paper PDF</a> /
 <a href = "https://github.com/chiselverify/chiselverify">GitHub</a> /
 <a href = "https://doi.org/10.1016/j.micpro.2022.104737">DOI Link</a>)
 </li>
 
 <li>
-<span class="paper">Open-Source Formal Verification for Chisel</span>
+<span class="paper">Enabling Coverage-Based Verification in Chisel</span> <div class="date">May'22</div>
 <br>
-<span class="me">Kevin Laeufer</span>, Jonathan Bachrach and Koushik Sen
+<span class="me">Amelia Dobis</span>, Hans Jakob Damsgaard, Enrico Tolotto, Kasper Hesse, Tjark Petersen, and Martin Schoeberl
 <br>
-<abbr class="conf" title="4th Workshop on Open-Source EDA Technology">WOSET 2021</abbr> 
-(<a href = "pdfs/formal_for_chisel_woset_2021_kevin_laeufer.pdf">Paper PDF</a> /
-<a href = "pdfs/formal_for_chisel_woset_2021_kevin_laeufer_slides.pdf">Slides PDF</a> /
-<a href = "videos/formal_for_chisel_woset_2021_kevin_laeufer.mp4">Talk</a> /
-<a href = "https://github.com/ekiwi/open-source-formal-verification-for-chisel">GitHub</a>)
+<abbr class="conf" title="2022 IEEE European Test Symposium (ETS)">ETS 2022</abbr> 
+(<a href = "pdfs/Enabling_Coverage-Based_Verification_in_Chisel.pdf">Paper PDF</a> /
+<a href = "https://github.com/chiselverify/chiselverify">GitHub</a>)
 </li>
 
 <li>
-<span class="paper">RFUZZ: Coverage-Directed Fuzz Testing of RTL on FPGAs</span>
+<span class="paper">Towards Functional Coverage-Driven Fuzzing for Chisel Designs</span> <div class="date">Nov'21</div>
 <br>
-<span class="me">Kevin Laeufer</span>, Jack Koenig, Donggyu Kim, Jonathan Bachrach and Koushik Sen
+<span class="me">Amelia Dobis</span>, Tjark Petersen, and Martin Schoeberl
 <br>
-<abbr class="conf" title="2018 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)">ICCAD 2018</abbr> 
-(<a href = "pdfs/rfuzz_kevin_laeufer_iccad2018.pdf">Paper PDF</a> /
-<a href = "pdfs/rfuzz_kevin_laeufer_iccad2018_slides.pdf">Slides PDF</a> /
-<a href = "https://github.com/ekiwi/rfuzz/">GitHub</a> /
-<a href = "https://doi.org/10.1145/3240765.3240842">DOI Link</a>)
+<abbr class="conf" title="Workshop on Open-Source EDA Technology">WOSET 2021</abbr> 
+(<a href = "pdfs/towards-functional-coverage-driven-fuzzing.pdf">Paper PDF</a> /
+<a href = "https://github.com/chiselverify/chiselverify">GitHub</a> )
 </li>
 
 <li>
-<span class="paper">Efficient Sampling of SAT Solutions for Testing</span>
+<span class="paper">ChiselVerify: An Open-Source Hardware Verification Library for Chisel and Scala</span> <div class="date">Oct'21</div>
 <br>
-Rafael Dutra, <span class="me">Kevin Laeufer</span>, Jonathan Bachrach and Koushik Sen
+<span class="me">Amelia Dobis</span>, Tjark Petersen, Hans Jakob Damsgaard, Kasper Hesse, Enrico Tolotto, Simon Thye Andersen, Richard Lin, and Martin Schoeberl
 <br>
-<abbr class="conf" title="40th International Conference on Software Engineering">ICSE 2018</abbr> 
-(<a href = "pdfs/quicksampler.pdf">Paper PDF</a> /
-<a href = "https://github.com/RafaelTupynamba/quicksampler">GitHub</a> /
-<a href = "https://doi.org/10.1145/3180155.3180248">DOI Link</a>)
+<strong>Best Paper Award</strong>
+<abbr class="conf" title="2021 IEEE Nordic Circuits and System Conference">NorCaS 2021</abbr> 
+(<a href = "pdfs/chisel-verify-paper.pdf">Paper PDF</a> /
+<a href = "https://github.com/chiselverify/chiselverify">GitHub</a> /
+<a href = "https://doi.org/10.1109/NorCAS53631.2021.9599869">DOI Link</a>)
 </li>
 
 </ul></div><!-- Publications -->
