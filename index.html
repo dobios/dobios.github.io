@@ -8,6 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="minimal.css" rel="stylesheet">
 <script src="https://kit.fontawesome.com/67b5d53a1c.js" crossorigin="anonymous"></script>
+<script src="https://geographyfieldwork.com/js/plotly-max.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">  
 </head>
@@ -48,6 +49,33 @@
     and I am not interested in contributing to any proprietary/closed-source project.<br>
     </div>
     </div>
+
+    <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
+    <script >
+data = [{
+  type: 'scatterpolar',
+  r: [8,6,9,7,4,3,7,8,3,5,6,3,3,3,3,4,1,1,3,2,8],
+  theta: ['Automated Testing','PL','Compilers','Formal Methods','Logics','ML','Graphics','Game Dev','Embedded Systems','HPC','Architecture','OS','Databases','Distributed Systems','Information Theory','ToC','Algorithms','Complexity','Security','CompBio','Automated Testing'],
+  fill: 'toself'
+}]
+
+layout = {
+  polar: {
+    radialaxis: {
+      visible: true,
+      range: [0, 10]
+	  
+    },
+	angularaxis: {
+    direction: "clockwise"
+	},
+  },
+  title: 'CS Knowledge',
+  showlegend: false
+}
+
+Plotly.plot("myDiv", data, layout)
+    </script>
     
     <div class="row">
       <h2><i class="fa-solid fa-rss"></i> News</h2><ul class="news">
