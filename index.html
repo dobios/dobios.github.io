@@ -1,204 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-<title>Amelia Dobis</title>
-<meta charset="utf-8">
-<meta name="author" content="Amelia Dobis">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link href="minimal.css" rel="stylesheet">
-<script src="https://kit.fontawesome.com/67b5d53a1c.js" crossorigin="anonymous"></script>
-<script src="plotly-max.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">  
+  <title>Amelia Dobis</title>
+  <meta charset="utf-8">
+  <meta name="author" content="Amelia Dobis">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="minimal.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/67b5d53a1c.js" crossorigin="anonymous"></script>
+  <script src="plotly-max.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
 </head>
 
 <div class="container">
-<header>
-  <a class="logo" href="index.html">Amelia Dobis</a>
-  <nav class="float-right"><ul>
-    <!--<a href="blog/index.html">blog</a> /-->
-    <li><a href="cv.html"><i class="ai ai-cv ai-2x"></i></a></li> 
-    <li><a href="mailto:amelia.dobis@princeton.edu"><i class="fa-solid fa-envelope fa-2x"></i></a></li>
-    <li><a href="https://github.com/dobios"><i class="fa fa-github fa-2x"></i></a></li>
-    <li><a href="https://scholar.google.com/citations?hl=en&user=ZHkWhBIAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a></li>
-    <li><a rel="me" href="https://discuss.systems/@miado"><i class="fa-brands fa-mastodon fa-2x"></i></a></li>
-  </ul></nav>
+  <header>
+    <a class="logo" href="index.html">Amelia Dobis</a>
+    <nav class="float-right">
+      <ul>
+        <!--<a href="blog/index.html">blog</a> /-->
+        <li><a href="cv.html"><i class="ai ai-cv ai-2x"></i></a></li>
+        <li><a href="mailto:amelia.dobis@princeton.edu"><i class="fa-solid fa-envelope fa-2x"></i></a></li>
+        <li><a href="https://github.com/dobios"><i class="fa fa-github fa-2x"></i></a></li>
+        <li><a href="https://scholar.google.com/citations?hl=en&user=ZHkWhBIAAAAJ"><i
+              class="ai ai-google-scholar-square ai-2x"></i></a></li>
+        <li><a rel="me" href="https://discuss.systems/@miado"><i class="fa-brands fa-mastodon fa-2x"></i></a></li>
+      </ul>
+    </nav>
   </header>
   <main>
 
     <div class="row">
-    <img class="float-left" src="res/ppic.jpg" alt="Profile picture" id="headshot">
-    <div style="padding-top=20px;">
-    <h2>Introduction</h2>
-    Hi ! I'm Amelia (she/her), a Computer Scientist from Geneva - Switzerland. I'm currently a PhD student in Computer Science in the Programming Languages group at Princeton University,
-    advised by <a href="https://www.languagesforsyste.ms/">Mae Milano</a>. I'm currently working on Hardware Verification, particularly modularizing formal verification, but my general
-    research interests lie in Programming Language Design, particularly data-flowy stuff.<br>
-       <br>
-    In the past, I was a Compiler Engineer at <a href="https://www.sifive.com/">SiFive</a> in Berkeley (California),
-    working on the verification features of Chisel and CIRCT. I got my MSc in Computer Science,
-    majoring in Secure and Reliable Systems with a minor in Computer Graphics, from <a href="https://inf.ethz.ch/studies/master/master-cs-2020.html">ETH Zurich</a>,
-    and my BSc in Computer Science from <a href="https://www.epfl.ch/education/bachelor/programs/computer-science/">EPFL</a>.<br>
-      <br>
-    I have also been affiliated to the SLICE Lab in the EECS department at UC Berkeley, where I was a Visiting Student Researcher and worked on temporal property synthesis and formal verification,
-    advised by <a href="https://kevinlaeufer.com">Kevin Laeufer</a>. I also worked with <a href="https://www.imm.dtu.dk/~masca/">Martin Schoeberl</a>
-    as a Research Assistant at the Embedded Systems Engineering group at Technical University of Denmark (DTU), where I looked into reimagining UVM for Chisel. <br>
-      <br>
-    I am a frequent contributor to both <a href="https://github.com/llvm/circt">CIRCT</a> and <a href="https://github.com/chipsalliance/chisel">Chisel</a>,
-    mostly working on their respective verification features. I generally only write <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a> code,
-    and I am not interested in contributing to any proprietary/closed-source project.<br>
+      <img class="float-left" src="res/ppic.jpg" alt="Profile picture" id="headshot">
+      <div style="padding-top=20px;">
+        <h2>Introduction</h2>
+        Hi ! I'm Amelia (she/her), a Computer Scientist from Geneva - Switzerland. I'm currently a PhD student in
+        Computer Science in the Programming Languages and System group at Princeton University (Princeton SNS),
+        advised by <a href="https://www.languagesforsyste.ms/">Mae Milano</a>. My work is at the intersection of
+        Programming Languages and Computer Architecture, where I focus on designing novel languages and paradigms for
+        hardware-software co-design and verification.<br>
+        <br>
+        In the past, I was a Compiler Engineer at <a href="https://www.sifive.com/">SiFive</a> in Berkeley (California),
+        working on the verification features of Chisel and CIRCT. I got my MSc in Computer Science,
+        majoring in Secure and Reliable Systems with a minor in Computer Graphics, from <a
+          href="https://inf.ethz.ch/studies/master/master-cs-2020.html">ETH Zurich</a>,
+        and my BSc in Computer Science from <a
+          href="https://www.epfl.ch/education/bachelor/programs/computer-science/">EPFL</a>.<br>
+        <br>
+        I have also been affiliated to the SLICE Lab in the EECS department at UC Berkeley, where I was a Visiting
+        Student Researcher and worked on temporal property synthesis and formal verification,
+        advised by <a href="https://kevinlaeufer.com">Kevin Laeufer</a>. Before that, I worked with <a
+          href="https://www.imm.dtu.dk/~masca/">Martin Schoeberl</a>
+        as a Research Assistant in the Embedded Systems Engineering group at the Technical University of Denmark (DTU),
+        where I looked into reimagining UVM for Chisel. <br>
+        <br>
+        I am a frequent contributor to both <a href="https://github.com/llvm/circt">CIRCT</a> and <a
+          href="https://github.com/chipsalliance/chisel">Chisel</a>,
+        mostly working on their respective verification features. I generally only write <a
+          href="https://en.wikipedia.org/wiki/Free_and_open-source_software">FOSS</a> code,
+        and I am always interested in learning about other cool FOSS projects! I also have a love for video games, and
+        have developped a few FOSS games, some of which are available on <a href="https://dobios.itch.io/">itch.io</a>.
+        <br>
+      </div>
     </div>
-    </div>
+
 
     <div id="myDiv"><!-- Plotly chart will be drawn inside this DIV --></div>
-    <script >
-data = [{
-  type: 'scatterpolar',
-  r: [8,6,9,7,4,3,7,8,3,5,6,3,3,3,3,4,1,1,3,2,8],
-  theta: ['Automated Testing','PL','Compilers','Formal Methods','Logics','ML','Graphics','Game Dev','Embedded Systems','HPC','Architecture','OS','Databases','Distributed Systems','Information Theory','ToC','Algorithms','Complexity','Security','CompBio','Automated Testing'],
-  fill: 'toself'
-}]
+    <script>
+      data = [{
+        type: 'scatterpolar',
+        r: [8, 6, 9, 7, 4, 3, 7, 8, 3, 5, 6, 3, 3, 3, 3, 4, 1, 1, 3, 2, 8],
+        theta: ['Automated Testing', 'PL', 'Compilers', 'Formal Methods', 'Logics', 'ML', 'Graphics', 'Game Dev', 'Embedded Systems', 'HPC', 'Architecture', 'OS', 'Databases', 'Distributed Systems', 'Information Theory', 'ToC', 'Algorithms', 'Complexity', 'Security', 'CompBio', 'Automated Testing'],
+        fill: 'toself'
+      }]
 
-layout = {
-  polar: {
-    radialaxis: {
-      visible: true,
-      range: [0, 10]
-	  
-    },
-	angularaxis: {
-    direction: "clockwise"
-	},
-  },
-  title: 'CS Knowledge',
-  showlegend: false
-}
+      layout = {
+        polar: {
+          radialaxis: {
+            visible: true,
+            range: [0, 10]
 
-Plotly.plot("myDiv", data, layout)
+          },
+          angularaxis: {
+            direction: "clockwise"
+          },
+        },
+        title: 'CS Knowledge',
+        showlegend: false
+      }
+
+      Plotly.plot("myDiv", data, layout)
     </script>
-    
-    <div class="row">
-      <h2><i class="fa-solid fa-rss"></i> News</h2><ul class="news">
-        <li><div class="date">Feb'25</div><div>My short position paper on converting SVA properties to synthesizable hardware was accepted at the LATTE workshop at ASPLOS! Looking forward to the interesting discussions there!</div>
-        <li><div class="date">Jan'25</div><div>I gave a talk at the University of Cambridge about my work on improving the state of hardware verification in high-level hardware languages.</div>
-        <li><div class="date">Dec'24</div><div>I attended my first NJPLS at Cornell Tech! Loved to have met so many great people there!</div></li>
-        <li><div class="date">Nov'24</div><div>
-          I presented a poster for my work on <a href="pdfs/ivy_collective_poster_2024.pdf">Scalable Formal Verirification in High-Level Hardware Languages</a> at the Ivy Collective Doctoral Engineering Symposium at Hardvard University!
-        </div></li>
-        <li><div class="date">Sep'24</div><div>
-          I gave a talk about my on-going work on <a href="https://docs.google.com/presentation/d/1H2v2kSnB-LlixtW2aoNVqaAM_oR6-ZdpFVaKMWajB7g/edit?usp=sharing">Modularizing Formal Verirification in CIRCT</a> at the
-          <a href="https://docs.google.com/document/d/1fOSRdyZR2w75D87yU2Ma9h2-_lEPL4NxvhJGJd-s5pk/edit?usp=sharing">CIRCT ODM</a>.
-        </div></li>
-        <li><div class="date">Sep'24</div><div>After moving across the country and wrapping up my work with SiFive, I have started my PhD at Princeton Univerity!</div></li>
-        <li><div class="date">July'24</div><div>I've released my first ever <a href="https://pypi.org/project/btor2-opt/">python package</a> for my btor2 compiler!</div></li>
-        <li><div class="date">June'24</div><div>I attended my first PLDI, as well as PLMW, in Copenhagen, where I got to meet many wonderful people in the field!
-          I also learned about choreographic programming, which particularly peaked my interest.
-        </div></li>
-        <li><div class="date">June'24</div><div>My legal name change in the US finally got approved after 4 long months since filing it! 2 countries down, one to go...</div></li>
-        <li><div class="date">May'24</div><div>I graduated from ETH Zurich and obtained my MSc in Computer Science!!</div></li>
-        <li><div class="date">April'24</div><div>I started my Internship at SiFive, where I get to work on the verification features of Chisel and CIRCT.</div></li>
-        <li><div class="date">April'24</div><div>I successfully defended my <a href = "pdfs/formal-verification-of-hardware-using-mlir.pdf">Master Thesis</a>!</div></li>
-        </ul>
-    </div>
-    
-    <div class="row">
-    <h2><i class="fa-solid fa-book"></i> Publications</h2><ul class="pubs-list">
-<!-- LATTE paper -->
-<li>
-  
-  <span class="paper">Incremental Conversion of SVA Properties to Synthesizable Hardware</span> -- <span class="date">Mar'25</span>
-  <br />
-  <span class="me">Amelia Dobis</span>, Fabian Schuiki, and Mae Milano
-  <br />
-  <abbr class="conf" title="5th Workshop on Languages, Tools, and Techniques for Accelerator Design">LATTE'25</abbr>
-  ( <a href = "pdfs/latte25-final14.pdf">Paper PDF</a> )
-</li>
-    
-    <!-- Thesis -->
-    <li>
-    
-      <span class="paper">Formal Verification of Hardware using MLIR</span> -- <span class="date">Apr'24</span>
-      <br />
-      <span class="me">Amelia Dobis</span>
-      <br />
-      <abbr class="conf" title="ETH Zurich">Master Thesis</abbr>
-      (<a href = "pdfs/formal-verification-of-hardware-using-mlir.pdf">Paper PDF</a> /
-      <a href = "https://github.com/llvm/circt">GitHub</a> /
-      <a href = "https://doi.org/10.3929/ethz-b-000668906">DOI Link</a> )
-    </li>
-    
-    <!-- Chisel Verify -->
-    <li>
-    <span class="paper">Verification of Chisel Hardware Designs with ChiselVerify</span> -- <span class="date">Feb'23</span>
-    <br>
-    <span class="me">Amelia Dobis</span>, Kevin Laeufer, Hans Jakob Damsgaard, Tjark Petersen, Kasper Hesse, Enrico Tolotto, Simon Thye Andersen, Richard Lin, and Martin Schoeberl
-    <br>
-    <abbr class="conf" title="Microprocessors and Microsystems">Microprocessors and Microsystems</abbr>
-    (<a href = "pdfs/verification-of-chisel-hardware-designs-with-chiselverify.pdf">Paper PDF</a> /
-    <a href = "https://github.com/chiselverify/chiselverify">GitHub</a> /
-    <a href = "https://doi.org/10.1016/j.micpro.2022.104737">DOI Link</a> )
-    </li>
-    
-    <li>
-    <span class="paper">Enabling Coverage-Based Verification in Chisel</span> -- <span class="date">May'22</span>
-    <br>
-    <span class="me">Amelia Dobis</span>, Hans Jakob Damsgaard, Enrico Tolotto, Kasper Hesse, Tjark Petersen, and Martin Schoeberl
-    <br>
-    <abbr class="conf" title="2022 IEEE European Test Symposium (ETS)">ETS 2022</abbr>
-    ( <a href = "pdfs/Enabling_Coverage-Based_Verification_in_Chisel.pdf">Paper PDF</a> /
-    <a href = "https://github.com/chiselverify/chiselverify">GitHub</a> /
-    <a href = "https://doi.org/10.1109/ETS54262.2022.9810435">DOI Link</a> )
-    </li>
-    
-    <li>
-    <span class="paper">Towards Functional Coverage-Driven Fuzzing for Chisel Designs</span> -- <span class="date">Nov'21</span>
-    <br>
-    <span class="me">Amelia Dobis</span>, Tjark Petersen, and Martin Schoeberl
-    <br>
-    <abbr class="conf" title="Workshop on Open-Source EDA Technology">WOSET 2021</abbr>
-    ( <a href = "pdfs/towards-functional-coverage-driven-fuzzing.pdf">Paper PDF</a> /
-    <a href = "https://github.com/chiselverify/chiselverify">GitHub</a> )
-    </li>
-    
-    <li>
-    <span class="paper">ChiselVerify: An Open-Source Hardware Verification Library for Chisel and Scala</span> -- <span class="date">Oct'21</span>
-    <br>
-    <span class="me">Amelia Dobis</span>, Tjark Petersen, Hans Jakob Damsgaard, Kasper Hesse, Enrico Tolotto, Simon Thye Andersen, Richard Lin, and Martin Schoeberl
-    <br>
-    <strong>Best Paper Award</strong>
-    <br>
-    <abbr class="conf" title="2021 IEEE Nordic Circuits and System Conference">NorCaS 2021</abbr>
-    ( <a href = "pdfs/ChiselVerify_An_Open-Source_Hardware_Verification_Library_for_Chisel_and_Scala.pdf">Paper PDF</a> /
-    <a href = "https://github.com/chiselverify/chiselverify">GitHub</a> /
-    <a href = "https://doi.org/10.1109/NorCAS53631.2021.9599869">DOI Link</a> )
-    </li>
-    
-    </ul></div><!-- Publications -->
-    
-    <div class="row">
-    <h2><i class="fa-solid fa-users"></i> Academic Advisors</h2><ul class="pubs-list">
-    
-    <li>
-      <a href="https://www.languagesforsyste.ms"><strong>Mae Milano</strong></a> -- <em>PhD Advisor</em>
-    </li>
-    <li>
-      <a href="https://kevinlaeufer.com/"><strong>Kevin Laeufer</strong></a> -- <em>MSc Thesis Advisor</em>
-    </li>
-    <li>
-      <a href="https://www.imm.dtu.dk/~masca/"><strong>Martin Schoeberl</strong></a> -- <em>Research Advisor</em>
-    </li>
-    <li>
-    <strong>Mikhail Asiatici</strong> -- <em>BSc Thesis Advisor</em>
-    </li>
-    
-    </ul></div><!-- Advisors -->
-    
-    
-    </main>
-    
 
-<footer>
-</footer>
+    <div class="row">
+      <h2><i class="fa-solid fa-rss"></i> News</h2>
+      <ul class="news">
+        <li>
+          <div class="date">Dec'25</div>
+          <div>I Co-hosted NJPLS at Princeton for the first time! This was a lovely experience and I hope to have
+            another change to orgranize the event next time it's at Princeton!</div>
+        </li>
+        <li>
+          <div class="date">Feb'25</div>
+          <div>My short position paper on converting SVA properties to synthesizable hardware was accepted at the LATTE
+            workshop at ASPLOS! Looking forward to the interesting discussions there!</div>
+        </li>
+        <li>
+          <div class="date">Jan'25</div>
+          <div>I gave a talk at the University of Cambridge about my work on improving the state of hardware
+            verification in high-level hardware languages.</div>
+        </li>
+        <li>
+          <div class="date">Dec'24</div>
+          <div>I attended my first NJPLS at Cornell Tech! Loved to have met so many great people there!</div>
+        </li>
+        <li>
+          <div class="date">Nov'24</div>
+          <div>
+            I presented a poster for my work on <a href="pdfs/ivy_collective_poster_2024.pdf">Scalable Formal
+              Verirification in High-Level Hardware Languages</a> at the Ivy Collective Doctoral Engineering Symposium
+            at Hardvard University!
+          </div>
+        </li>
+        <li>
+          <div class="date">Sep'24</div>
+          <div>
+            I gave a talk about my on-going work on <a
+              href="https://docs.google.com/presentation/d/1H2v2kSnB-LlixtW2aoNVqaAM_oR6-ZdpFVaKMWajB7g/edit?usp=sharing">Modularizing
+              Formal Verirification in CIRCT</a> at the
+            <a href="https://docs.google.com/document/d/1fOSRdyZR2w75D87yU2Ma9h2-_lEPL4NxvhJGJd-s5pk/edit?usp=sharing">CIRCT
+              ODM</a>.
+          </div>
+        </li>
+        <li>
+          <div class="date">Sep'24</div>
+          <div>After moving across the country and wrapping up my work with SiFive, I have started my PhD at Princeton
+            Univerity!</div>
+        </li>
+        <li>
+          <div class="date">July'24</div>
+          <div>I've released my first ever <a href="https://pypi.org/project/btor2-opt/">python package</a> for my btor2
+            compiler!</div>
+        </li>
+        <li>
+          <div class="date">June'24</div>
+          <div>I attended my first PLDI, as well as PLMW, in Copenhagen, where I got to meet many wonderful people in
+            the field!
+            I also learned about choreographic programming, which particularly peaked my interest.
+          </div>
+        </li>
+        <li>
+          <div class="date">June'24</div>
+          <div>My legal name change in the US finally got approved after 4 long months since filing it! 2 countries
+            down, one to go...</div>
+        </li>
+        <li>
+          <div class="date">May'24</div>
+          <div>I graduated from ETH Zurich and obtained my MSc in Computer Science!!</div>
+        </li>
+        <li>
+          <div class="date">April'24</div>
+          <div>I started my Internship at SiFive, where I get to work on the verification features of Chisel and CIRCT.
+          </div>
+        </li>
+        <li>
+          <div class="date">April'24</div>
+          <div>I successfully defended my <a href="pdfs/formal-verification-of-hardware-using-mlir.pdf">Master
+              Thesis</a>!</div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="row">
+      <h2><i class="fa-solid fa-book"></i> Publications</h2>
+      <ul class="pubs-list">
+        <!-- LATTE paper -->
+        <li>
+
+          <span class="paper">Incremental Conversion of SVA Properties to Synthesizable Hardware</span> -- <span
+            class="date">Mar'25</span>
+          <br />
+          <span class="me">Amelia Dobis</span>, Fabian Schuiki, and Mae Milano
+          <br />
+          <abbr class="conf"
+            title="5th Workshop on Languages, Tools, and Techniques for Accelerator Design">LATTE'25</abbr>
+          ( <a href="pdfs/latte25-final14.pdf">Paper PDF</a> )
+        </li>
+
+        <!-- Thesis -->
+        <li>
+
+          <span class="paper">Formal Verification of Hardware using MLIR</span> -- <span class="date">Apr'24</span>
+          <br />
+          <span class="me">Amelia Dobis</span>
+          <br />
+          <abbr class="conf" title="ETH Zurich">Master Thesis</abbr>
+          (<a href="pdfs/formal-verification-of-hardware-using-mlir.pdf">Paper PDF</a> /
+          <a href="https://github.com/llvm/circt">GitHub</a> /
+          <a href="https://doi.org/10.3929/ethz-b-000668906">DOI Link</a> )
+        </li>
+
+        <!-- Chisel Verify -->
+        <li>
+          <span class="paper">Verification of Chisel Hardware Designs with ChiselVerify</span> -- <span
+            class="date">Feb'23</span>
+          <br>
+          <span class="me">Amelia Dobis</span>, Kevin Laeufer, Hans Jakob Damsgaard, Tjark Petersen, Kasper Hesse,
+          Enrico Tolotto, Simon Thye Andersen, Richard Lin, and Martin Schoeberl
+          <br>
+          <abbr class="conf" title="Microprocessors and Microsystems">Microprocessors and Microsystems</abbr>
+          (<a href="pdfs/verification-of-chisel-hardware-designs-with-chiselverify.pdf">Paper PDF</a> /
+          <a href="https://github.com/chiselverify/chiselverify">GitHub</a> /
+          <a href="https://doi.org/10.1016/j.micpro.2022.104737">DOI Link</a> )
+        </li>
+
+        <li>
+          <span class="paper">Enabling Coverage-Based Verification in Chisel</span> -- <span class="date">May'22</span>
+          <br>
+          <span class="me">Amelia Dobis</span>, Hans Jakob Damsgaard, Enrico Tolotto, Kasper Hesse, Tjark Petersen, and
+          Martin Schoeberl
+          <br>
+          <abbr class="conf" title="2022 IEEE European Test Symposium (ETS)">ETS 2022</abbr>
+          ( <a href="pdfs/Enabling_Coverage-Based_Verification_in_Chisel.pdf">Paper PDF</a> /
+          <a href="https://github.com/chiselverify/chiselverify">GitHub</a> /
+          <a href="https://doi.org/10.1109/ETS54262.2022.9810435">DOI Link</a> )
+        </li>
+
+        <li>
+          <span class="paper">Towards Functional Coverage-Driven Fuzzing for Chisel Designs</span> -- <span
+            class="date">Nov'21</span>
+          <br>
+          <span class="me">Amelia Dobis</span>, Tjark Petersen, and Martin Schoeberl
+          <br>
+          <abbr class="conf" title="Workshop on Open-Source EDA Technology">WOSET 2021</abbr>
+          ( <a href="pdfs/towards-functional-coverage-driven-fuzzing.pdf">Paper PDF</a> /
+          <a href="https://github.com/chiselverify/chiselverify">GitHub</a> )
+        </li>
+
+        <li>
+          <span class="paper">ChiselVerify: An Open-Source Hardware Verification Library for Chisel and Scala</span> --
+          <span class="date">Oct'21</span>
+          <br>
+          <span class="me">Amelia Dobis</span>, Tjark Petersen, Hans Jakob Damsgaard, Kasper Hesse, Enrico Tolotto,
+          Simon Thye Andersen, Richard Lin, and Martin Schoeberl
+          <br>
+          <strong>Best Paper Award</strong>
+          <br>
+          <abbr class="conf" title="2021 IEEE Nordic Circuits and System Conference">NorCaS 2021</abbr>
+          ( <a href="pdfs/ChiselVerify_An_Open-Source_Hardware_Verification_Library_for_Chisel_and_Scala.pdf">Paper
+            PDF</a> /
+          <a href="https://github.com/chiselverify/chiselverify">GitHub</a> /
+          <a href="https://doi.org/10.1109/NorCAS53631.2021.9599869">DOI Link</a> )
+        </li>
+
+      </ul>
+    </div><!-- Publications -->
+
+    <div class="row">
+      <h2><i class="fa-solid fa-users"></i> Academic Advisors</h2>
+      <ul class="pubs-list">
+
+        <li>
+          <a href="https://www.languagesforsyste.ms"><strong>Mae Milano</strong></a> -- <em>PhD Advisor</em>
+        </li>
+        <li>
+          <a href="https://kevinlaeufer.com/"><strong>Kevin Laeufer</strong></a> -- <em>MSc Thesis Advisor</em>
+        </li>
+        <li>
+          <a href="https://www.imm.dtu.dk/~masca/"><strong>Martin Schoeberl</strong></a> -- <em>Research Advisor</em>
+        </li>
+        <li>
+          <strong>Mikhail Asiatici</strong> -- <em>BSc Thesis Advisor</em>
+        </li>
+
+      </ul>
+    </div><!-- Advisors -->
+
+
+  </main>
+
+
+  <footer>
+  </footer>
 </div>
 </body>
+
 </html>

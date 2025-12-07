@@ -1,29 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-  <title>Amelia Dobis</title>
-  <meta charset="utf-8">
-  <meta name="author" content="Amelia Dobis">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="minimal.css" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/67b5d53a1c.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">  
-  </head>
+<title>Amelia Dobis</title>
+<meta charset="utf-8">
+<meta name="author" content="Amelia Dobis">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="minimal.css" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c210e84dcc.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+</head>
 
 <div class="container">
 <header>
 <a class="logo" href="index.html">Amelia Dobis</a>
 <nav class="float-right"><ul>
   <!--<a href="blog/index.html">blog</a> /-->
-  <li><a href="index.html"><i class="fa fa-house fa-2x"></i></a></li> 
+  <li><a href="index.html"><i class="fa fa-house fa-2x"></i></a></li>
   <li><a href="mailto:amelia.dobis@princeton.edu"><i class="fa-solid fa-envelope fa-2x"></i></a></li>
   <li><a href="https://github.com/dobios"><i class="fa fa-github fa-2x"></i></a></li>
   <li><a href="https://scholar.google.com/citations?hl=en&user=ZHkWhBIAAAAJ"><i class="ai ai-google-scholar-square ai-2x"></i></a></li>
   <li><a rel="me" href="https://discuss.systems/@miado"><i class="fa-brands fa-mastodon fa-2x"></i></a></li>
 </ul></nav>
 </header>
+
 
 <main>
 
@@ -44,7 +44,7 @@
   
           <strong>Nationalities:</strong> Switzerland, USA, and Portugal<br>
           <br>
-          <strong>Research Interests:</strong> Programming Languages, Automated Testing, Hardware Verification, Concurrency.<br>
+          <strong>Research Interests:</strong> Harwdare Languages, Programming Languages, Formal Methods, Dataflow Programming, Concurrency.<br>
         </li>
       </ul>
   </div>
@@ -57,7 +57,7 @@
             <br>
             <em>Doctor of Philosophy, PhD - Computer Science</em>
             <br>
-            <em>Field: Programming Language Design</em>
+            <em>Fields: Programming Language Design, Computer Architecture, Compilers</em>
             <br>
             <span class="date">Aug. 2024 - Present</span>
           </li>
@@ -81,35 +81,72 @@
     </div>
   
     <div class="row">
-        <h2><i class="fa-solid fa-computer fa-1x"></i> Current Projects</h2>
-        <ul class="pubs-list">
-          <li>
-            <strong>Model Checking Using E-Graphs</strong>
-            <br>
-            <em>Experimenting with e-graphs to solve model checking problems.</em>
-            <br>
-            <em>Collaborators: <a href="https://kevinlaeufer.com">Kevin Laeufer</a>, <a href="https://mohannashahrad.github.io/">Mohanna Shahrad</a></em>
-            <br>
-            <span class="date">Nov. 2024 - Present</span>
-            <br>
-            ( WIP )
-          </li>
-          <li>
-            <strong>Modularizing Formal Verification in High-Level Hardware Languages</strong>
-            <br>
-            <em>Designing a scalable and unified formal verification system for high-level hardware languages, entirely integrated as an end-to-end flow in Chisel and CIRCT.</em>
-            <br>
-            <em>Collaborators: <a href="http://fabian.schuiki.ch/">Fabian Schuiki</a>, Bea Healy</em>
-            <br>
-            <span class="date">Oct. 2023 - Present</span>
-            <br>
-            ( <a href = "https://github.com/llvm/circt">CIRCT</a> /
-            <a href = "https://github.com/chipsalliance/chisel">Chisel</a> /
-            <a href = "pdfs/ivy_collective_poster_2024.pdf">Poster</a> /
-            <a href = "pdfs/reports/modular_report.pdf">Report</a> /
-            <a href = "pdfs/slides/modular_pres.pdf">Slides</a> )
-          </li>
-        </ul>
+      <h2><i class="fa-solid fa-computer fa-1x"></i> Current Projects</h2>
+      <ul class="pubs-list">
+        <li>
+          <strong>A Unified Language for Hardware-Software Co-design</strong>
+          <br>
+          <em>Designing a language specifically for developing hardware accelerated systems (both hardware and the
+            software driving it), using a reactive programming paradigm.</em>
+          <br>
+          <em>Collaborators: <a href="https://kevinlaeufer.com">Kevin Laeufer</a>, <a
+              href="https://www.languagesforsyste.ms//">Mae Milano</a></em>
+          <br>
+          <em>Status: Main dissertation project</em>
+          <br>
+          <span class="date">June 2025 - Present</span>
+          <br>
+          ( WIP )
+        </li>
+        <li>
+          <strong>dvrtl: Deductive Hardware Verification</strong>
+          <br>
+          <em>Designing a deductive verification system for high-level hardware languages, built around the CIRCT
+            compiler.</em>
+          <br>
+          <em>Collaborators: <a href="https://kevinlaeufer.com">Kevin Laeufer</a>, <a
+              href="http://fabian.schuiki.ch/">Fabian Schuiki</a>, Bea Healy</em>
+          <br>
+          <em>Status: Current focus (~80% complete)</em>
+          <br>
+          <span class="date">Oct. 2023 - Present</span>
+          <br>
+          ( <a href="https://codeberg.org/miado/dvrtl">dvrtl</a> /
+          <a href="https://github.com/llvm/circt">CIRCT</a> /
+          <a href="pdfs/dvrtl.pdf">dvrtl-spec [2025]</a> /
+          <a href="pdfs/slides/OPLSS2025_Pres.pdf">Slides [2025]</a>, <a href="pdfs/slides/modular_pres.pdf"> [2024]</a>
+          /
+          <a href="pdfs/ivy_collective_poster_2024.pdf">Poster [2024]</a> /
+          <a href="pdfs/reports/modular_report.pdf">Report [2024]</a> )
+        </li>
+        <li>
+          <strong>Porting the Clash compiler to CIRCT</strong>
+          <br>
+          <em>Porting the haskall based High-Level hardware language to the CIRCT compiler infrastructure.</em>
+          <br>
+          <em>Collaborators: <a href="https://gongqihuang.com/">Gongqi Huang</em>
+          <br>
+          <em>Status: Side project</em>
+          <br>
+          <span class="date">August 2025 - Present</span>
+          <br>
+          ( <a href="https://codeberg.org/miado/clash-compiler-circt">repo</a> )
+        </li>
+        <li>
+          <strong>CHaT: Coordinating Hardware Types</strong>
+          <br>
+          <em>Designing a system allowing for type-system coordination and guarantee enforcement across foreign
+            interfaces in high-level hardware languages.</em>
+          <br>
+          <em>Collaborators: <a href="https://leon.schuermann.io/">Leon Schuermann</em>
+          <br>
+          <em>Status: Side project</em>
+          <br>
+          <span class="date">November 2025 - Present</span>
+          <br>
+          ( WIP )
+        </li>
+      </ul>
     </div>
   
   <div class="row">
@@ -190,6 +227,20 @@
   <div class="row">
       <h2><i class="fa-solid fa-chalkboard-user fa-1x"></i> Teaching Experience</h2>
       <ul class="pubs-list">
+     	 <li>
+          <a href="http://www.cs.princeton.edu/~cos217">
+              <strong>COS-217: Introduction to Programming Systems</strong>
+          </a>
+          <br>
+          <em>Princeton University - Taught by Prof. Jaswinder P. Singh</em>
+          <br>
+          Role: Course Staff
+          <br>
+          <em>Tasks: Design and correct assignments, design and teach precept sessions twice a week, hold frequent office hours.</em>
+          <br>
+          <span class="date">Fall 2025</span>
+        </li>
+
         <li>
           <a href="https://www.vorlesungen.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?semkez=2021W&ansicht=ALLE&lerneinheitId=147496&lang=en">
               <strong>252-0061-00L: Systems Programming & Computer Architecture</strong>
@@ -305,7 +356,7 @@
       <span class="me">Amelia Dobis</span>
       <br />
       <abbr class="conf" title="ETH Zurich">Master Thesis</abbr>
-      (<a href = "pdfs/formal-verification-of-hardware-using-mlir.pdf">Paper PDF</a> /
+      ( <a href = "pdfs/formal-verification-of-hardware-using-mlir.pdf">Paper PDF</a> /
       <a href = "https://github.com/llvm/circt">GitHub</a> /
       <a href = "https://doi.org/10.3929/ethz-b-000668906">DOI Link</a> )
     </li>
@@ -317,7 +368,7 @@
     <span class="me">Amelia Dobis</span>, Kevin Laeufer, Hans Jakob Damsgaard, Tjark Petersen, Kasper Hesse, Enrico Tolotto, Simon Thye Andersen, Richard Lin, and Martin Schoeberl
     <br>
     <abbr class="conf" title="Microprocessors and Microsystems">Microprocessors and Microsystems</abbr>
-    (<a href = "pdfs/verification-of-chisel-hardware-designs-with-chiselverify.pdf">Paper PDF</a> /
+    ( <a href = "pdfs/verification-of-chisel-hardware-designs-with-chiselverify.pdf">Paper PDF</a> /
     <a href = "https://github.com/chiselverify/chiselverify">GitHub</a> /
     <a href = "https://doi.org/10.1016/j.micpro.2022.104737">DOI Link</a> )
     </li>
@@ -355,7 +406,6 @@
     <a href = "https://github.com/chiselverify/chiselverify">GitHub</a> /
     <a href = "https://doi.org/10.1109/NorCAS53631.2021.9599869">DOI Link</a> )
     </li>
-    
     </ul></div><!-- Publications -->
 
    <div class="row">
@@ -365,8 +415,8 @@
         <strong>Unified Deductive Hardware Verification</strong>
         <br>
         <em>Oregon Programming Languages Summer School (OPLSS) 2025</em> | <span class="date">July 2025</span>
-        <br>
-        <a href="pdfs/slides/oplss_pres.pdf">(Slides)</a>
+	<br>
+	<a href="pdfs/slides/oplss_pres.pdf">(Slides)</a>
       </li>
       <li>
        <li>
@@ -380,23 +430,29 @@
         <strong>Improving Formal Verification Support in CIRCT</strong>
         <br>
         <em>CIRCT Open Developers Meeting</em> | <span class="date">September 2024</span>
-        <br>
-        (<a href="pdfs/slides/circtodm_pres.pdf">Slides</a>, <a href="https://sifive.zoom.us/rec/share/eg9DFixNnRKt8gGs8YqDO1cU8u7XesJOEf6sFg6Zp2hoz6S_reRXAeSw8Tj1TgtH.Emlx6f8oZ9z74SkA">Video</a>)
+	<br>
+	(<a href="pdfs/slides/circtodm_pres.pdf">Slides</a>, <a href="https://sifive.zoom.us/rec/share/eg9DFixNnRKt8gGs8YqDO1cU8u7XesJOEf6sFg6Zp2hoz6S_reRXAeSw8Tj1TgtH.Emlx6f8oZ9z74SkA">Video</a>)
       </li>
       <li>
         <strong>Formal Verification of Hardware using MLIR</strong>
-        <br>
+	<br>
         <em>UC Berkeley EECS -- Programming Languages Seminar</em> | <span class="date">April 2024</span>
         <br>
         <em>UC Berkeley EECS -- SLICE Lab Retreat</em> | <span class="date">January 2024</span>
-        <br>
-        <em>Technical University of Denmark -- Embedded Systems Engineering Group (DTU ESE)</em> | <span class="date">November 2023</span>
+	<br>
+	<em>Technical University of Denmark -- Embedded Systems Engineering Group (DTU ESE)</em> | <span class="date">November 2023</span>
         <br>
         <a href="pdfs/slides/thesis_pres.pdf">(Slides)</a>
       </li>
+      <li>
+        <strong>ChiselVerify: A Verification Library for Chisel</strong>
+        <br>
+        <em>Chisel Community Conference (CCC)</em> | <span class="date">July 2021</span>
+      </li>
+
     </ul>
   </div>
-  
+   
   <div class="row">
     <h2><i class="fa-solid fa-award fa-1x"></i> Awards / Fellowships</h2>
     <ul class="pubs-list">
@@ -428,15 +484,24 @@
     </ul>
   </div>
   
-  <div class="row">
-    <h2><i class="fa-solid fa-book-open-reader fa-1x"></i> Review / Editorial Appointments</h2>
+    <div class="row">
+    <h2><i class="fa-solid fa-book-open-reader fa-1x"></i> Academic Service</h2>
     <ul class="pubs-list">
-       <li>
+      <li>
+        <strong>NJPLS'Dec 2025 (New Jersey Programming Languages and Systems Seminar)</strong>
+        <br>
+        <em>Co-Organizer</em> | <span class="date">December 2025</span>
+      </li> 
+      <li>
+        <strong>TODAES'2025 (Transactions On Design Automation of Electronic Systems)</strong>
+        <br>
+        <em>Journal Reviewer</em> | <span class="date">August-December 2025</span>
+      </li> 
+      <li>
         <strong>DSD’2025 (28th Euromicro Conference on Digital System Design)</strong>
         <br>
         <em>Program Committee Member</em> | <span class="date">March-September 2025</span>
       </li>
-      <li>
        <li>
         <strong>TODAES'2024 (Transactions On Design Automation of Electronic Systems)</strong>
         <br>
@@ -445,7 +510,7 @@
       <li>
         <strong>DSD’2024 (27th Euromicro Conference on Digital System Design)</strong>
         <br>
-        <em>Porgram Committee Member</em> | <span class="date">March-September 2024</span>
+        <em>Program Committee Member</em> | <span class="date">March-September 2024</span>
       </li>
       <li>
         <strong>VALID’2023 (15th International Conference on Advances in Systems Testing and Validation Lifecycles)</strong>
@@ -459,28 +524,44 @@
       </li>
     </ul>
   </div>
-
   
     <div class="row">
     <h2><i class="fa-solid fa-users fa-1x"></i> In-Person Conferences / Workshops</h2>
     <ul class="pubs-list">
       <li>
+        <strong>OPLSS 2025 (Oregon Programming Languages Summer School)</strong> -- University of Oregon, Eugene OR
+        <br>
+        <em>Attendee</em></em> | <span class="date">June 23 - July 5 2025</span>
+      </li>
+      <li>
+        <strong>NJPLS 2025 (New Jersey Programming Languages and Systems Seminar)</strong> -- Jane Street, New York City NY
+        <br>
+        <em>Attendee</em></em> | <span class="date">May 9 2025</span>
+      </li>
+      <li>
+        <strong>ASPLOS 2025 (International Conference on Architectural Support for Programming Languages and Operating Systems)</strong> -- Rotterdam, Netherlands
+        <br>
+        <em>LATTE paper presentation + APLSOS attendee</em></em> | <span class="date">March 30 - April 3 2025</span>
+      </li>
+      <li>
+        <strong>NJPLS 2024 (New Jersey Programming Languages and Systems Seminar)</strong> -- Cornell Tech, New York City NY
+        <br>
+        <em>Attendee</em></em> | <span class="date">December 6 2024</span>
+      </li>
+      <li>
+        <strong>Ivy Doctoral Symposium for Diversity in Engineering 2024</strong> -- Harvard University, Alston MA
+        <br>
+        <em>Poster Presentation</em></em> | <span class="date">November 7-8 2024</span>
+      </li>
+      <li>
         <strong>PLDI 2024 (SIGPLAN Conference on Programming Language Design and Implementation)</strong> -- Copenhagen, Denmark
         <br>
-        <em>Attendee</em></em>
-        <br>
-        Atternded PLMW (Programming Languages Mentorship Workshop) hosted at PLDI. This also allowed me to attend the rest of the conference.
-        <br>
-        <span class="date">June 21-25 2024</span>
+        <em>Attendee (PLMW + PLDI)</em></em> | <span class="date">June 21-25 2024</span>
       </li>
       <li>
         <strong>ETS 2022 (IEEE European Test Symposium)</strong> -- Barcelona, Spain
         <br>
-        <em>Accepted Long Paper Presentation</em>
-        <br>
-        Attended the conference to give a long presentation of my accepted paper "Enabling Coverage-Based Verification in Chisel".
-        <br>
-        <span class="date">May 23-27 2022</span>
+        <em>Full paper presentation</em> | <span class="date">May 23-27 2022</span>
     </li>
     </ul>
   </div>
